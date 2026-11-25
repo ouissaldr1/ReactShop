@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@theme {
+  --color-cream: #faf8f3;
+  --color-sage-100: #e6ede1;
+  --color-sage-500: #8fa886;
+  --color-sage-700: #5e7658;
+  --color-ink: #2f3e2c;
+  --color-terracotta: #c8745a;
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
